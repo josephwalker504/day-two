@@ -1,47 +1,49 @@
 header {
    border: solid goldenrod 1px; 
 }
-
+                                    /* nav section links no bullets */
 nav li {
    list-style-type: none;
    display: inline-block;
-   padding: 50px;
+   padding: 25px;
    text-align: center;
 }
-
+                                     /* disabled class in li list */
 .disabled {
    color: grey;
 }
 
-a[disabled] {
-   color: purple;
-}
+                                    /* Any text inside an element with a class of "active" */
 .active {
    color: yellow;
-}
+}  
+                                    /* Make the "I'm red" text colored red.*/
 .red {
    color: red;
 }
+                                     /* Make the "I'm blue" text colored blue. */
 .blue {
    color: blue;
 }
-
+/* The sibling h4 of the red element should have a background color of red. several h4 tags created this class to style */
 .redSister {
    background-color: red;
 }
+                      /* The sibling h4 of the blue element should have background color of blue. created class to style */
 .blueBrother {
    background-color: blue;
 }
-
+                          /* Any h4 that is a direct child of grandparent should have a 1px border with rounded corners. */
 .grandpa {
-   border: solid;
+   border: solid 1px;
    border-radius: 15px 15px;
 }
-
+                                     /* Elements with a class of promo should have bold text that is also colored gold.*/
 .promo {
    font: bold;
    color: gold;
 }
+                                    /* CSS selector that makes any text input field have a height of 25px.*/
 input {
    height: 25px;
 }
