@@ -1,12 +1,12 @@
 header {
    border: solid goldenrod 1px; 
-   background-color: aquamarine;
 }
 
 nav li {
    list-style-type: none;
    display: inline-block;
    padding: 50px;
+   text-align: center;
 }
 
 .disabled {
@@ -24,4 +24,24 @@ a[disabled] {
 }
 .blue {
    color: blue;
+}
+
+.redSister {
+   background-color: red;
+}
+.blueBrother {
+   background-color: blue;
+}
+
+.grandpa {
+   border: solid;
+   border-radius: 15px 15px;
+}
+
+.promo {
+   font: bold;
+   color: gold;
+}
+input {
+   height: 25px;
 }
